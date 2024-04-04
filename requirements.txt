@@ -1,0 +1,3 @@
+requests
+capmonster-python
+colorama
