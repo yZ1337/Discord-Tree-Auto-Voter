@@ -20,6 +20,8 @@ captchakey = data['captchamonster_key']
 vote_id = data['vote_id']
 
 def download_and_solve_captcha(api_key, captcha_image_url, proxy, session):
+    date_and_time = datetime.now()
+    time = date_and_time.strftime('%H:%M:%S')
     local_image_path = 'captcha.png'
     if os.path.exists(local_image_path):
         os.remove(local_image_path)
