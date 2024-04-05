@@ -14,7 +14,7 @@ git clone https://github.com/yZ1337/Discord-Tree-Auto-Voter.git
 pip install -r requirements.txt
 ```
 
-3. Get a capmonster API key [here](https://capmonster.cloud/).
+3. Get a capmonster API key [here](https://capmonster.cloud/). (No, it is not free..)
 
 4. Put the capmonster API key in info.json and put your vote id in `info.json` found in the URL. e.g: 1234.
 
