@@ -19,6 +19,11 @@ with open('info.json', 'r') as file:
 captchakey = data['captchamonster_key']
 vote_id = data['vote_id']
 
+custom_fig = Figlet(font='small')
+print(custom_fig.renderText('Discordtree Auto Voter'))
+print(f"Created by: {BLUE}yZ {RESET}")
+print("https://github.com/yZ1337\n")
+
 def download_and_solve_captcha(api_key, captcha_image_url, proxy, session):
     date_and_time = datetime.now()
     time = date_and_time.strftime('%H:%M:%S')
