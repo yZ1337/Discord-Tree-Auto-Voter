@@ -25,5 +25,6 @@ pip install -r requirements.txt
 python3 discordtree.py
 ```
 
-![image](https://github.com/yZ1337/Discord-Tree-Auto-Voter/assets/32521997/6745385b-2d66-429a-96b5-082f0db6e606)
+![image](https://github.com/yZ1337/Discord-Tree-Auto-Voter/assets/32521997/c0671db6-e739-4654-adfe-4b6f05a451ab)
+
 
