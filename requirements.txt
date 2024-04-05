@@ -1,3 +1,4 @@
 requests
 capmonster-python
 colorama
+pyfiglet
