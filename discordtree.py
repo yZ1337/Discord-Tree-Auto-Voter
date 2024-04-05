@@ -5,6 +5,7 @@ from datetime import datetime
 import os
 from colorama import Fore
 import json
+from pyfiglet import Figlet
 
 GREEN = Fore.GREEN
 BLUE = Fore.BLUE
