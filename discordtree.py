@@ -13,9 +13,6 @@ RED = Fore.RED
 RESET = Fore.RESET
 MAGENTA = Fore.MAGENTA
 
-date_and_time = datetime.now()
-time = date_and_time.strftime('%H:%M:%S')
-
 with open('info.json', 'r') as file:
     data = json.load(file)
 
@@ -23,8 +20,6 @@ captchakey = data['captchamonster_key']
 vote_id = data['vote_id']
 
 def download_and_solve_captcha(api_key, captcha_image_url, proxy, session):
-    date_and_time = datetime.now()
-    time = date_and_time.strftime('%H:%M:%S')
     local_image_path = 'captcha.png'
     if os.path.exists(local_image_path):
         os.remove(local_image_path)
@@ -69,6 +64,8 @@ def main():
 
     for proxy in proxies_list:
         try:
+            date_and_time = datetime.now()
+            time = date_and_time.strftime('%H:%M:%S')
             captcha_solution = download_and_solve_captcha(capmonster_api_key, captcha_image_url, proxy, session)
 
             if captcha_solution:
