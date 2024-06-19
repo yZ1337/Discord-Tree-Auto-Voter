@@ -1,4 +1,4 @@
-# Discordtree Auto Voter
+# Discordtree.com Auto Voter
 
 This is a script that automatically votes multiple times for your server on discordtree.com.
 
